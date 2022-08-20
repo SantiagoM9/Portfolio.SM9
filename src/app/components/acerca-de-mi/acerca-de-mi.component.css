@@ -1,0 +1,25 @@
+.container-fluid {
+    background-color: #31688F;
+}
+
+
+.contenedor {
+    background-color: #31688F;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-style: double;
+    border-color: black;
+    border-radius: 25px;
+    border-width: 2px;
+}
+
+.titulo {
+    background-color: #31688F;
+    padding-left: 14%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+   }

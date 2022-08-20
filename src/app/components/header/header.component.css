@@ -1,37 +1,42 @@
 .header {
     background-color: #31688F;
-    display: flex;
-    justify-content:space-between;
-    height:100px;
+    height:100%;
     font-family:sans-serif;
-    width:101%;
+
     }
 
 .logo {
-    align-self:center;
+    padding-top: 0;
 }
 
 #logoAP {
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 125px;
     }
 
-#header-der {
-display: flex;
-}
 
 .redes {
     align-self: center;
-    margin-right: 10px;
-}
+    padding-right: 0;
+    padding-left: 0;
+    }
 
 #boton-login {
-    height: 60px;
-    width: 200px;
-    background-color: rgb(153, 212, 160);
-    align-self: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 55px;
+   align-self: center;
+   margin-left: 2%;
+   margin-right: 2%;
+   border-style:double;
+   border-color: rgb(225, 190, 190);
+   cursor: pointer;
+   border: 0;
+   border-radius: 4px;
+   font-weight: 600;
+   margin: 0 10px;
+   width: 200px;
+   padding: 10px 0;
+   box-shadow: 0 0 20px rgba(141, 141, 177, 0.2);
+   transition: 0.4s;
+   color: white;
+   background-color: green;
  }
 

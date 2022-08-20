@@ -1,38 +1,21 @@
-.banner {
-    display: flex;
-    justify-content: space-between;
-    }
-
-#banner-foto {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
+.container-fluid {
+    background-color: #31688F;
 }
 
-#foto-CV {
-    position: absolute;
-    margin-left: 15%;
-  }
+.foto {
+    margin-left: 20%;
+    padding: 0;
+}
 
-#titulo {
+.titulo {
     align-self: center;
-    margin-top: 10%;
-    margin-right: 23%;
 }
 
-#titulo h1 {
-    font-weight: 400;
-    color: white;
+.nombre {
+        padding-bottom: 8%;
 }
 
-#desarrollador {
-    margin-top: 70px;
-    font-weight: 300;
-}
-#desarrollador h1 {
-font-size:300%;
-font-weight: bold;
-
+.desarrollador h1 {
+    font-weight: bold;
+    font-size: 330%;
 }

@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    }
+
+#banner-foto {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#foto-CV {
+    position: absolute;
+    margin-left: 15%;
+  }
+
+#titulo {
+    align-self: center;
+    margin-top: 10%;
+    margin-right: 23%;
+}
+
+#titulo h1 {
+    font-weight: 400;
+    color: white;
+}
+
+#desarrollador {
+    margin-top: 70px;
+    font-weight: 300;
+}
+#desarrollador h1 {
+font-size:300%;
+font-weight: bold;
+
+}

@@ -1,0 +1,37 @@
+.header {
+    background-color: #31688F;
+    display: flex;
+    justify-content:space-between;
+    height:100px;
+    font-family:sans-serif;
+    width:101%;
+    }
+
+.logo {
+    align-self:center;
+}
+
+#logoAP {
+    width: 250px;
+    height: 150px;
+    }
+
+#header-der {
+display: flex;
+}
+
+.redes {
+    align-self: center;
+    margin-right: 10px;
+}
+
+#boton-login {
+    height: 60px;
+    width: 200px;
+    background-color: rgb(153, 212, 160);
+    align-self: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 55px;
+ }
+

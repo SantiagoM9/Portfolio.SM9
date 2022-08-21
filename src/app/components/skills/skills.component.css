@@ -21,28 +21,24 @@
 .titulo {
     background-color: #31688F;
     padding-left: 14%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     margin-right: 2%;
     margin-left: 2%;
 }
 
-.tarjeta {
-    background-color: #31688F;
-    margin-top: 2%;
-    margin-bottom: 0%;
-    padding-bottom: 5%;
+.soft {
+    margin-left: 27%;
 }
 
-.logo {
-    background-color: #31688F(196, 24, 24);
-    justify-content: end;
-}
-.img-fluid {
-    height: 100px;
-    width: 100px;
+.hard {
     margin-left: 5%;
 }
 
-.titulo-tarjeta {
-    margin-left: 0;
+.primera-linea {
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.segunda-linea {
+    margin-left: 4%;
 }

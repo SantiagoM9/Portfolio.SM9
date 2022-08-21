@@ -9,6 +9,10 @@ import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.comp
 import { LaboralComponent } from './components/laboral/laboral.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ActividadesComponent } from './components/actividades/actividades.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
+import { IdiomasComponent } from './components/idiomas/idiomas.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -20,11 +24,15 @@ import { ActividadesComponent } from './components/actividades/actividades.compo
     AcercaDeMiComponent,
     LaboralComponent,
     EducacionComponent,
-    ActividadesComponent
+    ActividadesComponent,
+    SkillsComponent,
+    IdiomasComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

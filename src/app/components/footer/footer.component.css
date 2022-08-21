@@ -1,0 +1,26 @@
+.container-fluid p{
+    color: white;
+    background-color: #2F303A;
+    margin-top: 5%;
+}
+
+.contenedor {
+    background-color:#2F303A ;
+    
+}
+
+.contacto {
+ 
+
+    margin-top: 0.35%;
+}
+.contacto p {
+    align-self: center;
+
+
+}
+
+.ubicacion {
+   margin-left: 2%;
+
+}

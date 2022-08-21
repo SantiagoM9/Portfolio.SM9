@@ -19,3 +19,10 @@
     font-weight: bold;
     font-size: 330%;
 }
+
+/* Si se achica mucho la pantalla la foto pasa a quedar muy chica y no vale la pena*/
+@media (max-width: 750px) {
+    .img-fluid {
+      visibility: hidden; 
+    }
+}

@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {path: '', component: HomeComponent}, //--> http://localhost:4200
+  {path: 'login', component: LoginComponent} // ---> http://localhost:4200/login
+  //{path: 'edicion', component: EdicionComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
